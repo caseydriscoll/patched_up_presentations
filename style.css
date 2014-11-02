@@ -1,0 +1,38 @@
+/*
+ Theme Name:    Patched Up Presentations 
+ Description:   Genesis child theme for presentations 
+ Author:        Casey Patrick Driscoll 
+ Author URI:    http://caseypatrickdriscoll.com
+ Template:      genesis
+ Version:       1.0.0
+*/
+
+@import url('../genesis/style.css');
+
+.content .entry { background: transparent; }
+
+#play { 
+  display: block; position: fixed; 
+  left: 0px; bottom: 0px; 
+  padding: 5px 10px; margin: 10px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  #play:hover { background: #cccccc; }
+
+section.slide {
+  min-height: 800px;
+  padding: 100px; margin: 100px auto;
+  background: #ffffff;
+  }
+
+  section note { display: block; margin: 10px 0; }
+
+  section.slide h2 { font-size: 72px; margin-bottom: 50px; border-bottom: 3px solid #000000; }
+  section.slide h3 { font-size: 48px; margin-top: 40px; }
+  section.slide h4 { font-size: 32px; text-align: center; }
+
+  section.slide img {
+    border: 1px solid #333333;
+  }
